@@ -5,15 +5,18 @@ import Navbar from '../components/navbar'
 import Footer from '../components/Footer';
 const Home: NextPage = () => {
   return (
-    <div className="">
-      <Head>
-        <title>Doctors</title>
-        <link rel="icon" href="/favicon.ico" />
+    <div className='bg-[#ffffff]'>
+
+      <div className="w-full  mx-auto   2xl:max-w-7xl bg-[#ffffff] shadow-xl">
+        <Head>
+          <title>Doctors</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <Navbar />
-      </Head>
-      <Card />
-      <Footer />
-   </div>
+        <Card />
+        <Footer />
+      </div>
+    </div>
   )
 }
 

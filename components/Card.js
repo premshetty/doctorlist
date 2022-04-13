@@ -6,7 +6,7 @@ function Card() {
     return (
       <Link href={`/${doctor.id}`} >
         <div
-          className="h-auto w-[95%] cursor-pointer bg-gray-300 shadow-xl hover:shadow-blue-600 sm:w-56"
+          className="h-auto w-[95%] cursor-pointer bg-gray-300 shadow-xl hover:shadow-blue-300 sm:w-56"
           key={doctor.id}
         >
           <img src={doctor.image} alt="doctor" />
